@@ -19,3 +19,4 @@ opt.relativenumber = true
 opt.wildmenu = true
 opt.title = true
 opt.termguicolors = true
+opt.clipboard = "unnamedplus"
