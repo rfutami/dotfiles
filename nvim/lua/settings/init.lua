@@ -1,0 +1,21 @@
+local cmd = vim.cmd
+local exec = vim.api.nvim_exec
+local fn = vim.fn
+local g = vim.g
+local opt = vim.opt
+
+opt.expandtab = true
+opt.smarttab = true
+opt.shiftwidth = 4
+opt.tabstop = 4
+opt.hlsearch = false
+opt.incsearch = true
+opt.ignorecase = true
+opt.smartcase = true
+opt.wrap = false
+opt.fileencoding = 'utf-8'
+opt.number = true
+opt.relativenumber = true
+opt.wildmenu = true
+opt.title = true
+opt.termguicolors = true
