@@ -62,5 +62,6 @@ return require('packer').startup(function()
          -- tag = 'release' -- To use the latest release
     }
     use 'tpope/vim-fugitive'
+    use 'tpope/vim-commentary'
 end)
 
