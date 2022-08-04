@@ -61,5 +61,6 @@ return require('packer').startup(function()
          'lewis6991/gitsigns.nvim',
          -- tag = 'release' -- To use the latest release
     }
+    use 'tpope/vim-fugitive'
 end)
 
