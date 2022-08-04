@@ -36,11 +36,6 @@ return require('packer').startup(function()
         requires = { 'kyazdani42/nvim-web-devicons', opt = true }
     }
 
- --   use {
- --       "williamboman/mason.nvim",
- --       "williamboman/mason-lspconfig.nvim",
- --       "neovim/nvim-lspconfig",
- --   }
     use 'neovim/nvim-lspconfig'
     use 'williamboman/nvim-lsp-installer'
 
@@ -61,6 +56,10 @@ return require('packer').startup(function()
           -- refer to the configuration section below
         }
         end
+    }
+    use {
+         'lewis6991/gitsigns.nvim',
+         -- tag = 'release' -- To use the latest release
     }
 end)
 
