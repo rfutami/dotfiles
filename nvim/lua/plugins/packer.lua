@@ -63,5 +63,11 @@ return require('packer').startup(function()
     }
     use 'tpope/vim-fugitive'
     use 'tpope/vim-commentary'
+    use {
+        "akinsho/toggleterm.nvim", tag = 'v2.*', config = function()
+            require("toggleterm").setup()
+        end
+    }
+    use 'windwp/nvim-spectre'
 end)
 

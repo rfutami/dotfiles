@@ -24,3 +24,7 @@ lspconfig.intelephense.setup {
     on_attach = on_attach,
     flags = lsp_flags,
 }
+-- lspconfig.phpactor.setup {
+--     on_attach = on_attach,
+--     flags = lsp_flags,
+-- }
