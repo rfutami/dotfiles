@@ -10,7 +10,8 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function()
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
-    use 'Shatur/neovim-ayu'
+--    use 'Shatur/neovim-ayu'
+    use "EdenEast/nightfox.nvim"
     use { 'mhinz/vim-startify' } 
     use {                                              -- filesystem navigation
         'kyazdani42/nvim-tree.lua',

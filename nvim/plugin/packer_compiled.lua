@@ -124,10 +124,10 @@ _G.packer_plugins = {
     path = "/home/rfutami/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
-  ["neovim-ayu"] = {
+  ["nightfox.nvim"] = {
     loaded = true,
-    path = "/home/rfutami/.local/share/nvim/site/pack/packer/start/neovim-ayu",
-    url = "https://github.com/Shatur/neovim-ayu"
+    path = "/home/rfutami/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
+    url = "https://github.com/EdenEast/nightfox.nvim"
   },
   ["nvim-autopairs"] = {
     loaded = true,

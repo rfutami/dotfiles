@@ -1,2 +1,2 @@
 require('packer')
-require('ayu')
+-- require('ayu')

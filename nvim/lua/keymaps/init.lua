@@ -35,4 +35,5 @@ map("n", "<c-k>", "<cmd>lua vim.lsp.buf.signature_help()<cr>", default_opts)
 map("n", "<leader>af", "<cmd>lua vim.lsp.buf.code_action()<cr>", default_opts)
 map("n", "<leader>rn", "<cmd>lua vim.lsp.buf.rename()<cr>", default_opts)
 map("n", "<leader>gb", ":Gitsigns toggle_current_line_blame<cr>", default_opts)
+map("n", "<leader>S", "<cmd>lua require('spectre').open()<cr>", default_opts)
 
