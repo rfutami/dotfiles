@@ -24,3 +24,4 @@ opt.wrap = true
 opt.timeoutlen = 300
 vim.wo.foldmethod = "expr"
 vim.wo.foldexpr = "nvim_treesitter#foldexpr()"
+opt.autoindent = true

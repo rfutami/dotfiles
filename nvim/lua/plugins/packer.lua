@@ -19,7 +19,7 @@ return require('packer').startup(function()
     }
     use { 'DanilaMihailov/beacon.nvim' } 
     use { 'majutsushi/tagbar' }
-    use { 'Yggdroot/indentLine' }
+--    use { 'Yggdroot/indentLine' }
     use { 'windwp/nvim-autopairs' }
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.0',
