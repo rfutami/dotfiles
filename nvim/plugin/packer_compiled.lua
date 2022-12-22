@@ -114,11 +114,6 @@ _G.packer_plugins = {
     path = "/home/rfutami/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
-  indentLine = {
-    loaded = true,
-    path = "/home/rfutami/.local/share/nvim/site/pack/packer/start/indentLine",
-    url = "https://github.com/Yggdroot/indentLine"
-  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/home/rfutami/.local/share/nvim/site/pack/packer/start/lualine.nvim",
