@@ -65,3 +65,6 @@ local capabilities = require('cmp_nvim_lsp').default_capabilities(vim.lsp.protoc
 require('lspconfig')['intelephense'].setup {
 capabilities = capabilities
 }
+require('lspconfig')['golangci_lint_ls'].setup {
+    capabilities = capabilities;
+}
